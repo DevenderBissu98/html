@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form Validation css.css">
+</head>
+<body>
+    <script>
+        function indianarmy(){
+        var rollno = document.myform.rollno.value;
+        var candidateaname = document.myform.candidateaname.value;
+        var father_guardian_name = document.myform.father_guardian_name.value;
+        var mothers_name = document.myform.mothers_name.value;
+        var date_of_birth = document.myform.date_of_birth.value;
+        var nationality = document.myform.nationality.value;
+        var religion = document.myform.religion.value;
+        var class = document.myform.class.value;
+        var gender = document.myform.gender.value;
+        var marital_status = document.myform.marital_status.value;
+        var mobile_no = document.myform.mobile_no.value;
+        var email_address = document.myform.email_address.value;
+        var permanent_address = document.myform.permanent_address.value;
+
+        if(rollno == null || rollno == ""){
+            document.getElementById().innerHTML= 
+        }
+        else if(candidateaname == null || candidateaname == ""){
+            alert("candidateaname cant's be blank");
+            return false;
+        }
+        else if
+            (father_guardian_name == null || father_guardian_name == ""){
+                alert("father_guardian_name cant's be blank");
+                return false;
+            }
+            else if(mothers_name == null || mothers_name == ""){
+                alert("mothers_name cant's be blank");
+                return false;
+            }
+            else if(date_of_birth == null || date_of_birth == ""){
+                alert("date_of_birth cant's be blank");
+            }
+            else if(nationality == null || nationality == ""){
+                alert("nationality cant's be blank");
+            }
+            else if(religion == null || religion == ""){
+                alert("religion cant's be blank");
+            }
+            else if(class == null || class == ""){
+                alert("Class cant's be blank");
+            }
+            else if(gender == null || gender == ""){
+                alert("gender cant's be blank");
+            }
+            else if(marital_status == null || marital_status == ""){
+                alert("marital_status cant's be blank");
+            }
+            else if(mobile_no == null || mobile_no == ""){
+                alert("mobile_no cant's be blank");
+            }
+            else if(email_address == null || email_address == ""){
+                alert("emil_address can's be blank");
+            }
+            else if(permanent_address == null || permanent_address == ""){
+                alert("permanent_address cant's be blank");
+            }
+        }
+        </script>
+        <form name="myform" method="post" action="http://127.0.0.1:5500/Retype%20Password%20Validation.html" onsubmit="return indianarmy()">
+        <label class="come14">Roll No</label> <input class="come" type="text" name="rollno"><br/>
+        <label class="come15">Candidate's Name:</label> <input class="come1" type="text" name="candidateaname"><br>
+        <label class="come16">Father/Guardian Name:</label> <input class="come2" type="text" name="father_guardian_name"><br>
+        <label class="come17">Mother,s Name:</label> <input class="come3" type="text" name="mothers_name"><br>
+        <label class="come18">Date of Birth:</label> <input class="come4" type="date" name="date_of_birth"><br>
+        <label class="come19">Nationality:</label> <input class="come5" type="text" name="nationality"><br>
+        <label class="come20">Religion:</label> <input class="come6" type="text" name="religion"><br>
+        <label class="come21">Class:</label> <input class="come7" type="text" name="class"><br>
+        <label class="come22">Gender:</label> <input class="come8" type="" name="gender"><br>
+        <label class="come23">Marital Status:</label> <input class="come9" type="text" name="marital_status"><br>
+        <label class="come24">Mobile No:</label> <input class="come10" type="text" name="mobile_no"><br>
+        <label class="come25">Email Address:</label> <input class="come11" type="text" name="email_address"><br>
+        <label class="come26">Permanent Address:</label> <input class="come12" type="text" name="permanent_address"><br>
+        <input class="come13" type="submit" name="Register" id="">
+        </form>
+</body>
+</html>
